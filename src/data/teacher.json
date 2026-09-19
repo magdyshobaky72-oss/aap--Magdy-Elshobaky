@@ -1,36 +1,47 @@
 {
   "schemaVersion": 1,
-  "appName": "تطبيقي التعليمي",
-  "name": "اسم المعلم",
-  "professionalTitle": "المسمى المهني",
-  "bio": "نبذة قصيرة عن المعلم.",
-  "tagline": "تعلم بطريقة أبسط وأوضح",
+  "appName": "تطبيق التاريخ التعليمي",
+  "name": "Dr Magdy Elshobaky الأكاديمي والتربوي",
+  "brandName": "الأكاديمي والتربوي د. مجدي الشوبكي",
+  "professionalTitle": "كبير معلمي مادتي التاريخ والجغرافيا بمدرسة ميت عساس الثانوية",
+  "specialization": "تاريخ - الصفين الأول والثاني الثانوي",
+  "bio": "كبير معلمي مادتي التاريخ والجغرافيا بمدرسة ميت عساس الثانوية. باحث دكتوراه الفلسفة في التربية (قسم أصول التربية - كلية التربية جامعة المنصورة). حاصل على ماجستير أصول التربية بتقدير ممتاز مع التوصية، ودبلوم خاص في أصول التربية بتقدير جيد جداً، ودبلوم مهني في تكنولوجيا التعليم بتقدير جيد جداً. أسلوب تدريسي متميز يجمع بين الإجمال والتفصيل لتيسير الفهم وبقاء أثر التعلم.",
+  "tagline": "نتعلم نبتكر لنترك أثراً",
   "language": "ar",
   "direction": "rtl",
-  "photo": null,
+  "photo": {
+    "src": "/assets/dr-magdy-avatar.svg",
+    "alt": "صورة كارتونية رمزية للأكاديمي والتربوي Dr Magdy Elshobaky"
+  },
   "logo": null,
   "theme": {
-    "primary": "#1D4ED8",
+    "primary": "#1E3A8A",
     "primaryContrast": "#FFFFFF",
-    "accent": "#0F766E",
-    "background": "#F8FAFC",
+    "accent": "#0284C7",
+    "secondary": "#881337",
+    "background": "#FAF8F5",
     "surface": "#FFFFFF",
     "text": "#0F172A",
-    "mutedText": "#475569",
-    "border": "#CBD5E1",
-    "focus": "#7C3AED",
-    "secondary": "#334155",
-    "creativeAccent": "#7C3AED",
-    "warmSurface": "#F1F5F9",
+    "mutedText": "#334155",
+    "border": "#E2D9CE",
+    "focus": "#0369A1",
+    "creativeAccent": "#0284C7",
+    "warmSurface": "#F4EFEA",
     "fontFamily": "'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, Arial, sans-serif"
   },
-  "contacts": [],
+  "contacts": [
+    {
+      "id": "whatsapp",
+      "label": "تواصل عبر WhatsApp",
+      "url": "https://wa.me/"
+    }
+  ],
   "designPreferences": {
-    "style": "تعليمي، بسيط، واضح، منظم، بخلفيات فاتحة",
+    "style": "فاخر، تقني، إسلامي رصين، بخلفيات فاتحة وألوان كحلية وبيج وسماوية",
     "avoid": [
       "الزحام البصري",
-      "كثرة الألوان في الشاشة الواحدة",
-      "الزخارف غير الوظيفية"
+      "الألوان الصارخة غير المتناسقة",
+      "التعقيد وتشتيت انتباه الطالب"
     ]
   }
 }

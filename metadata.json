@@ -1,5 +1,6 @@
 {
-  "name": "Teacher Educational App Clean Base v2",
-  "description": "قالب تعليمي عام قابل لإعادة الاستخدام، يشمل المناهج، بصمة التعلم، السبورة التعليمية، ومحتوى الدروس المنفصل.",
-  "version": "2.0.0"
+  "name": "تطبيق التاريخ التعليمي - د. مجدي الشوبكي",
+  "description": "المنصة التعليمية للأكاديمي والتربوي Dr Magdy Elshobaky - كبير معلمي مادتي التاريخ والجغرافيا.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

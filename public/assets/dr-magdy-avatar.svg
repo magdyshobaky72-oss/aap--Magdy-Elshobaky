@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="60%" stop-color="#F4EFEA"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="tieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Aura / Circle -->
+  <circle cx="200" cy="230" r="175" fill="url(#bgGradient)" />
+  
+  <!-- Subtle Islamic Geometric Ring Pattern -->
+  <g opacity="0.22" stroke="#1E3A8A" stroke-width="1.5" fill="none">
+    <circle cx="200" cy="230" r="162" stroke-dasharray="4,6" />
+    <polygon points="200,75 228,103 268,103 268,143 296,171 278,206 296,241 268,269 268,309 228,309 200,337 172,309 132,309 132,269 104,241 122,206 104,171 132,143 132,103 172,103" opacity="0.4"/>
+  </g>
+
+  <!-- Torso & Blazer -->
+  <g filter="url(#softShadow)">
+    <!-- Shoulders / Blazer Body -->
+    <path d="M80,480 C80,385 115,335 155,320 L245,320 C285,335 320,385 320,480 Z" fill="url(#suitGrad)"/>
+    
+    <!-- Crisp White Shirt Collar -->
+    <polygon points="200,380 160,315 240,315" fill="#FFFFFF"/>
+    
+    <!-- Shirt Inner & Tie -->
+    <polygon points="200,395 188,325 212,325" fill="#FFFFFF"/>
+    <path d="M195,330 L205,330 L208,390 L200,410 L192,390 Z" fill="url(#tieGrad)"/>
+    
+    <!-- Blazer Lapels -->
+    <path d="M155,320 L190,410 L170,480 L110,480 Z" fill="#172554"/>
+    <path d="M245,320 L210,410 L230,480 L290,480 Z" fill="#172554"/>
+    <path d="M155,320 L195,405 L180,380 Z" fill="#1E3A8A"/>
+    <path d="M245,320 L205,405 L220,380 Z" fill="#1E3A8A"/>
+    
+    <!-- Lapel Pin: History Quill / Pen -->
+    <circle cx="165" cy="365" r="4" fill="#F59E0B"/>
+    <path d="M164,369 L161,385" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Neck -->
+  <rect x="182" y="270" width="36" height="50" rx="8" fill="#FBBF24"/>
+  <path d="M182,295 C192,305 208,305 218,295 L218,315 L182,315 Z" fill="#F59E0B" opacity="0.4"/>
+
+  <!-- Head & Hair -->
+  <!-- Ears -->
+  <circle cx="138" cy="225" r="16" fill="#FBBF24"/>
+  <circle cx="138" cy="225" r="9" fill="#F59E0B" opacity="0.35"/>
+  <circle cx="262" cy="225" r="16" fill="#FBBF24"/>
+  <circle cx="262" cy="225" r="9" fill="#F59E0B" opacity="0.35"/>
+
+  <!-- Face Shape -->
+  <path d="M142,190 C142,130 258,130 258,190 C258,255 235,285 200,285 C165,285 142,255 142,190 Z" fill="#FDE68A"/>
+
+  <!-- Academic Haircut (Refined, dark brown/grey-tinged) -->
+  <path d="M138,185 C136,140 160,115 200,115 C240,115 264,140 262,185 C255,145 240,130 200,130 C160,130 145,145 138,185 Z" fill="#332117"/>
+  <path d="M138,180 C138,160 146,142 165,132 C178,136 195,134 212,126 C235,126 256,142 262,175 C252,155 236,145 205,144 C175,143 150,158 138,180 Z" fill="#1C1917"/>
+
+  <!-- Dignified Eyebrows -->
+  <path d="M160,192 C168,188 179,188 186,192" stroke="#292524" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M214,192 C221,188 232,188 240,192" stroke="#292524" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes with Friendly Sparkle -->
+  <circle cx="173" cy="207" r="6" fill="#1E293B"/>
+  <circle cx="171" cy="205" r="2" fill="#FFFFFF"/>
+  <circle cx="227" cy="207" r="6" fill="#1E293B"/>
+  <circle cx="225" cy="205" r="2" fill="#FFFFFF"/>
+
+  <!-- Academic Glasses (Golden / Tortoise Shell Frame) -->
+  <g stroke="#0F172A" stroke-width="2.5" fill="none">
+    <!-- Right glass -->
+    <rect x="156" y="196" width="34" height="24" rx="8" fill="#E0F2FE" fill-opacity="0.3" stroke="#0F172A"/>
+    <!-- Left glass -->
+    <rect x="210" y="196" width="34" height="24" rx="8" fill="#E0F2FE" fill-opacity="0.3" stroke="#0F172A"/>
+    <!-- Bridge -->
+    <path d="M190,205 C196,202 204,202 210,205"/>
+    <!-- Sides -->
+    <path d="M156,206 L138,203"/>
+    <path d="M244,206 L262,203"/>
+  </g>
+  <!-- Glass Glare highlight -->
+  <line x1="162" y1="200" x2="172" y2="216" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+  <line x1="216" y1="200" x2="226" y2="216" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Friendly Nose -->
+  <path d="M198,206 C202,216 202,225 196,229 C201,230 205,228 206,225" stroke="#D97706" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Warm, Welcoming Academic Smile -->
+  <path d="M182,246 C192,257 208,257 218,246" stroke="#881337" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Neat Mustache / Trimmed Beard Line -->
+  <path d="M185,238 C192,242 197,242 200,240 C203,242 208,242 215,238" stroke="#332117" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Floating Decorative Elements: History & Wisdom Motif -->
+  <!-- Open Parchment / Book Icon at bottom left -->
+  <g transform="translate(64, 380) scale(0.85)" opacity="0.95" filter="url(#softShadow)">
+    <rect x="0" y="0" width="56" height="42" rx="4" fill="#FAF8F5" stroke="#CBD5E1" stroke-width="1.5"/>
+    <line x1="28" y1="0" x2="28" y2="42" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="8" y1="10" x2="22" y2="10" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="18" x2="22" y2="18" stroke="#64748B" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="26" x2="18" y2="26" stroke="#64748B" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="34" y1="10" x2="48" y2="10" stroke="#881337" stroke-width="2" stroke-linecap="round"/>
+    <line x1="34" y1="18" x2="48" y2="18" stroke="#64748B" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="34" y1="26" x2="44" y2="26" stroke="#64748B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Graduation Cap / Academic Ribbon Motif at top right -->
+  <g transform="translate(290, 75) scale(0.9)" opacity="0.95">
+    <path d="M25,0 L50,12 L25,24 L0,12 Z" fill="#1E3A8A"/>
+    <polygon points="12,18 12,30 38,30 38,18 25,24" fill="#0F172A"/>
+    <path d="M46,14 L52,24 L52,38 L48,38 L48,24 Z" fill="#F59E0B"/>
+    <circle cx="48" cy="14" r="2.5" fill="#FBBF24"/>
+  </g>
+</svg>
